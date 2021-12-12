@@ -22,10 +22,8 @@ def flash(array, row_index, column_index):
                 if array[row_index+r_splash][column_index+c_splash] > 9:
                     flash(array, row_index+r_splash, column_index+c_splash)
 
-
-all_flash_step = None
 step = 0
-while all_flash_step is None:
+while True:
     step += 1
     array += 1
     flashed_points = []

@@ -1,6 +1,3 @@
-from os import link
-
-
 filename = "input.txt"
 
 with open(filename, "r") as f:
